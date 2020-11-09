@@ -1,0 +1,267 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #363633;
+    text-decoration: none;
+}
+
+nav {
+    height: 100px;
+    background-color: #FFE900;
+    padding: 0 30px;
+}
+/*........................*/
+.nav-div-top {
+    height: 50px;
+    margin-left: 0%;
+    display: flex; 
+}
+.logo {
+    padding: 10px;
+    margin: 0px;
+    height: 80%;
+    width: 15%;
+}
+.search-bar {
+    margin: 5px;
+    height: 100%;
+    width: 55%;
+}
+input {
+    height: 39px;
+    width: 90%;
+}
+.icon-link {
+    height: 100%;
+    width: 30%;
+}
+.icon-link h4 {
+    color: #857F4D;
+}
+.carrito-1-icon{
+    font-size: 30px;
+    margin-left: 15px;
+    color: #3c3f3f;
+}
+.phone-icon {
+   font-size: 30px;
+   margin-left: 15px;
+   color: #857F4D;
+}
+.nav-div-bottom {
+    height: 60%;
+    margin-left: 15px;
+    display: flex;
+}
+.nav-div-bottom p {
+    font-size: 80%;
+}
+.categories {
+    height: 80%;
+    width: 20%;
+}
+.main-menu {
+    margin-left: 18px;
+    height: 100%;
+    width: 55%;
+}
+.main-menu p {
+    color: #585644;
+}
+.nav-profile {
+    height: 100%;
+    width: 30%;
+}
+
+/*Clases comunes*/
+.ml-10 {
+    margin-left: 10px;
+    color : #94948fa1
+}
+.ml-20 {
+        margin-left: 20px;
+        color : #c4c4c0
+}
+.ml-30{
+    
+    font-family: sans-serif;
+    font-style: italic;
+    color : #adada9
+}
+.ml-40{
+    font-family: Impact, arial ;
+    color : rgb(248, 242, 242)
+}
+.d-inline {
+    display: inline;
+}
+.align-center {
+    align-items: center;
+}
+.align-left{
+    padding-left: 0%;
+}
+.d-flex {
+   
+    display: flex;
+}
+.justify-flex-end {
+    justify-content: flex-end;
+}
+.justify-flex-center{
+    justify-content: center;
+}
+.justify-betwin{
+    justify-content: space-between;
+}
+
+.letra{
+    font-family: 'Times New Roman';
+}
+header label :hover{
+    cursor: pointer;
+    background : rgb(8, 8, 8) ;
+  
+  }
+  body{
+    font-family: arial,12  ;
+}
+.caja-1{
+    height: 100%;
+    width: 100%;
+    /*background-color: rgba(60, 60, 233, 0.657);*/
+}
+.caja-2{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(3, 3, 39, 0.657);
+}
+.seccion-1{
+    /*background-color: rgb(218, 11, 166);*/
+    height:84vh;
+}
+.seccion-2{
+    height: 60%;
+    /*background-color: black;*/
+}
+.seccion-3{
+    width: 100%;
+    height: 40%;
+    /*background-color: darkred;*/
+}
+.caja-5{
+    width: 80%;
+    height: 80%;
+    /*background-color: white;*/
+}
+.caja-6{
+    width: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    background-color: white;
+}
+.caja-7{
+    width: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+.caja-8{
+margin: auto;
+justify-content: center;
+}
+li{
+    list-style-type:none;
+    position:relative;
+    width:120px;
+    }
+li a{
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    width:120px;
+    height:30px;
+    border:1px solid #000;
+    color:#fff;
+    background-color:#000;
+}
+            
+li a:hover{
+    color:#000;
+    background-color:#fff;
+}
+nav li ul{
+        display:none;
+        position:absolute;
+        top:0px;
+        left:120px;
+}
+.dialogo-1{
+    text-align: left ;
+
+}                
+    /*nav li:hover ul{display:block;}*/
+    .hidden{
+        display: hidden;
+    }
+    .hidden:hover{
+        display: block;
+    }
+header nav div li a{
+    display: none;
+   }
+   header nav div li ul li a{
+display: hover;
+display: none;
+   }
+     .boton{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+  .botons:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+  .caja-9{
+      width: 90%;
+    height: 350px;
+    background-color: #070706;
+    padding: 0 30px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  .caja-10{
+    height: 240px;
+    width: 39%;
+    background-color: #4e04f8;
+    padding: 0 30px;
+  }
+
+  .caja-11{
+    justify-content: left;
+  }
+
+  .box{
+    height: 340px;
+    width: 284px;
+    background-color: #e71919;
+   
+  }
+  .box-2{
+    height: 120px;
+    width: 89%;
+    
+    background-color: #494242;
+    padding: 0 15px;
+  }
